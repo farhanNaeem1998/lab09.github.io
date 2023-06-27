@@ -51,7 +51,7 @@
   // Function to fetch news from GNews API
   function fetchNews() {
     const apiKey = "e9555ee316e98a222cbdfbe2fda0ebc6";
-    const url = `/api/v4/search?q=food&token=${apiKey}`;
+    const url = `https://gnews.io/api/v4/search?q=food&token=${apiKey}`;
 
     fetch(url)
       .then((response) => response.json())
