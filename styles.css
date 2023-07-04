@@ -1,0 +1,60 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Karma", sans-serif;
+}
+
+.w3-bar-block .w3-bar-item {
+  padding: 20px;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.w3-top, .w3-white {
+  width: 100%;
+}
+
+.w3-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px;
+}
+
+.news-card-item {
+  flex: 0 0 calc(25% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card-item .w3-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-card-item img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.news-card-item .w3-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.news-card-item .w3-container p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.news-card-item .btn {
+  margin-top: auto;
+}
